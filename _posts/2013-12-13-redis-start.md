@@ -43,3 +43,7 @@ redis-commander
 
 	~$ npm install -g redis-commander
 	~$ redis-commander
+
+windows 下 使用
+
+	https://github.com/mythz/redis-windows
