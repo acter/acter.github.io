@@ -7,7 +7,7 @@ tags: []
 ---
 {% include JB/setup %}
 * 作者：[acter](https://github.com/acter)
-* 本文地址：http://acter.github.io/git/2013/12/13/git-manage/
+* 本文地址：http://acter.github.io/sublime/2014/10/31/sublime-php-tools/
 * 转载请注明出处
 
 在sublime -》tools -》 buid system -> new buid system
