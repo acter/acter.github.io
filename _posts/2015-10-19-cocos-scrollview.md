@@ -27,3 +27,8 @@ tags: []
     end
 
     self.booksTableView:setContentOffset(ccp(0,offset))
+    
+    --区域背景色
+    self.panelAll:setBackGroundColor(ccc3(150,200,255))
+    self.panelAll:setBackGroundColorOpacity(255)
+    self.panelAll:setBackGroundColorType(1)
