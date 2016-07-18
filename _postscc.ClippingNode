@@ -1,0 +1,27 @@
+---
+layout: post
+title: "裁剪圆形头像"
+description: ""
+category: "cocos cc.ClippingNode"
+tags: []
+---
+{% include JB/setup %}
+* 作者：[acter](https://github.com/acter)
+* 本文地址：http://acter.github.io/cocos/2016/04/14/
+* 转载请注明出处
+
+
+
+
+
+
+local sprite = display.newSprite("circle.png")
+
+local clipping = cc.ClippingNode:create(sprite)
+clipping:setAlphaThreshold(0.5)
+
+self:addChild(clipping)
+
+local headIcon = display.newSprite("avatar.png")
+headIcon:setScale(0.5)
+clipping:addChild(headIcon)
